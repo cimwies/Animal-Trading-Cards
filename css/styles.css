@@ -59,24 +59,24 @@ p {
 }
 
 .button {
-    color: #8C94DC;
-    background-color: #fff;
-    text-align: center;
-    text-decoration: none;
-    margin: 15px auto 5px;
-    padding: 8px 16px;
-    border: 2px solid #8C94DC;
-    border-radius: 2px;
-    display: inline-block;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
+  color: #8C94DC;
+  background-color: #fff;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px auto 5px;
+  padding: 8px 16px;
+  border: 2px solid #8C94DC;
+  border-radius: 2px;
+  display: inline-block;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
 
 }
 
 .button:hover {
-    background-color: #8C94DC;
-    color: white;
+  background-color: #8C94DC;
+  color: white;
 }
 
 ul {
@@ -98,9 +98,6 @@ li span {
 
 }
 
-
-/* due to border-box, the image shows 302px width but that is with 2px border */
-
 img {
   width: 300px;
   height: auto;
@@ -110,7 +107,6 @@ img {
   border-radius: 2px;
 
 }
-
 
 /* content elements */
 
