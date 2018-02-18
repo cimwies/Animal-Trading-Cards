@@ -1,0 +1,135 @@
+* {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;
+         /* Opera/IE 8+ */
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+
+}
+
+
+body {
+  color: #15181d;
+  background: #000 url("../img/bg.jpg") no-repeat top center fixed;
+  background-size: cover;
+  font: 12px/ 1.78 'Poppins', sans-serif;
+
+}
+
+/* basic elements */
+
+h3 {
+  color: #8C94DC;
+  font-size: 2em;
+  font-weight: 100;
+  margin: 0;
+  padding: 0 0 15px 40px;
+  background: url('../img/icon.svg') no-repeat left center;
+
+}
+
+p {
+  margin: 5px 0;
+
+}
+/* first paragraph is supposed to be italic */
+.content p:first-child {
+  font-style: italic;
+
+}
+
+.content p:last-child {
+  text-align: center;
+
+}
+
+.copyright p {
+  color: #666;
+
+}
+
+.copyright a,
+.copyright a:hover {
+  color: #8C94DC;
+
+}
+
+.button {
+    color: #8C94DC;
+    background-color: #fff;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px auto 5px;
+    padding: 8px 16px;
+    border: 2px solid #8C94DC;
+    border-radius: 2px;
+    display: inline-block;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+.button:hover {
+    background-color: #8C94DC;
+    color: white;
+}
+
+ul {
+  margin: 20px 0;
+  padding: 20px 0;
+  border-top: 3px solid #8C94DC;
+  border-bottom: 3px solid #8C94DC;
+
+}
+
+li {
+  list-style-type: none;
+
+}
+
+li span {
+  font-weight: bold;
+  padding-right: 5px;
+
+}
+
+
+/* due to border-box, the image shows 302px width but that is with 2px border */
+
+img {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid rgba(148, 148, 220, 0.1);
+  border-radius: 2px;
+
+}
+
+
+/* content elements */
+
+#card {
+  width: 344px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 2px;
+  border: 1px solid rgba(148, 148, 220, 0.1);
+  box-shadow:  0 0 60px 0 rgba(31,32,68,0.9);
+
+}
+
+.content {
+  width: 300px;
+  margin: 20px auto 0;
+  padding: 15px;
+  border: 1px solid rgba(148, 148, 220, 0.1);
+  border-radius: 2px;
+
+}
