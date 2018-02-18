@@ -3,6 +3,7 @@ Project "Animal Trading Cards"
 Front-End Web Developer Nanodegree Program 2018
 
 GitHub Page: https://cimwies.github.io/Animal-Trading-Cards/
+
 GitHub Wiki: https://github.com/cimwies/Animal-Trading-Cards/wiki
 
 
