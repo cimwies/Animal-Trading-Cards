@@ -10,7 +10,6 @@ html, body {
 
 }
 
-
 body {
   color: #15181d;
   background: #000 url("../img/bg.jpg") no-repeat top center fixed;
@@ -35,7 +34,9 @@ p {
   margin: 5px 0;
 
 }
+
 /* first paragraph is supposed to be italic */
+
 .content p:first-child {
   font-style: italic;
 
