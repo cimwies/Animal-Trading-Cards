@@ -1,1 +1,1 @@
-Trading Cards
+Animal Trading Cards
