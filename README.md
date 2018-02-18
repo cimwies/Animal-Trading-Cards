@@ -1,4 +1,4 @@
-Project "Animal Trading Cards"
+Project "Animal Trading Cards" :D
 
 Front-End Web Developer Nanodegree Program 2018
 
