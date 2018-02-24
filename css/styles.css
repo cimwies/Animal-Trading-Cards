@@ -1,24 +1,24 @@
 /* browser reset from https://css-tricks.com/box-sizing/ */
 
 html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
+  box-sizing: border-box; 
 }
 
-html, body {
+*, *:before, *:after {
+  box-sizing: inherit;  
+}
+
+html, 
+body {
   padding: 0;
   margin: 0;
-
 }
 
 body {
   color: #15181d;
-  background: #000 url("../img/bg.jpg") no-repeat top center fixed;
+  background: #000 url(../img/bg.jpg) no-repeat top center fixed;
   background-size: cover;
   font: 12px/ 1.78 'Poppins', sans-serif;
-
 }
 
 /* basic elements */
@@ -29,37 +29,31 @@ h3 {
   font-weight: 100;
   margin: 0;
   padding: 0 0 15px 40px;
-  background: url('../img/icon.svg') no-repeat left center;
-
+  background: url(../img/icon.svg) no-repeat left center;
 }
 
 p {
   margin: 5px 0;
-
 }
 
 /* first paragraph is supposed to be italic */
 
 .content p:first-child {
   font-style: italic;
-
 }
 
 .content p:last-child {
   text-align: center;
-
 }
 
 .copyright p {
   color: #666;
   padding-left: 20px;
-
 }
 
 .copyright a,
 .copyright a:hover {
   color: #8c94dc;
-
 }
 
 .button {
@@ -75,7 +69,6 @@ p {
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
-
 }
 
 .button:hover {
@@ -88,18 +81,15 @@ ul {
   padding: 20px 0;
   border-top: 3px solid #8c94dc;
   border-bottom: 3px solid #8c94dc;
-
 }
 
 li {
   list-style-type: none;
-
 }
 
 li span {
   font-weight: bold;
   padding-right: 5px;
-
 }
 
 img {
@@ -109,7 +99,6 @@ img {
   margin: 0 auto;
   border: 1px solid rgba(148, 148, 220, 0.1);
   border-radius: 2px;
-
 }
 
 /* content elements */
@@ -122,7 +111,6 @@ img {
   border-radius: 2px;
   border: 1px solid rgba(148, 148, 220, 0.1);
   box-shadow:  0 0 60px 0 rgba(31,32,68,0.9);
-
 }
 
 .content {
@@ -131,5 +119,4 @@ img {
   padding: 15px;
   border: 1px solid rgba(148, 148, 220, 0.1);
   border-radius: 2px;
-
 }
